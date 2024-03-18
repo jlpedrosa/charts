@@ -51,7 +51,7 @@ alpineImage:
   # -- Specify the multi-init image
   repository: tccr.io/truecharts/alpine
   # -- Specify the redis image tag
-  tag: v3.17.0@sha256:f8607e14a5e456c1b8fe50b7f0c9371b4aae543d23080f5e2fe0bdbb06d2413b
+  tag: v3.17.0@sha256:33649abd5156330750d02b6d98039c002f0e6bcba3c21888e4db88244e3f0d4c
   # -- Specify the redis image pull policy
   pullPolicy: IfNotPresent
 
