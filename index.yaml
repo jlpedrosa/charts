@@ -193,6 +193,25 @@ entries:
       category: Database
     apiVersion: v2
     appVersion: 2.6.14-alpine3.17
+    created: "2024-03-18T23:48:58.424747359Z"
+    description: Fast, reliable, scalable, and easy to use proxy
+    digest: e332c2a1c16f012da043aace4cd1df898cfdf04fe78455d102ad632097e0d86e
+    home: https://github.com/kfirfer/helm/tree/master/charts/haproxy
+    icon: https://res-3.cloudinary.com/crunchbase-production/image/upload/c_lpad,h_256,w_256,f_auto,q_auto:eco/yroykjzjfi8lmeam58xp
+    keywords:
+    - haproxy
+    - proxy
+    maintainers:
+    - email: kfirfer@gmail.com
+      name: kfir
+    name: haproxy
+    urls:
+    - https://github.com/jlpedrosa/charts/releases/download/haproxy-0.1.9/haproxy-0.1.9.tgz
+    version: 0.1.9
+  - annotations:
+      category: Database
+    apiVersion: v2
+    appVersion: 2.6.14-alpine3.17
     created: "2024-03-18T20:43:43.017357457Z"
     description: Fast, reliable, scalable, and easy to use proxy
     digest: 51492c71e50b9223a232e9862cbff5dc0703fcde3d21a9cd05aece22e167bd6b
@@ -770,4 +789,4 @@ entries:
     urls:
     - https://github.com/jlpedrosa/charts/releases/download/ts3-manager-0.0.3/ts3-manager-0.0.3.tgz
     version: 0.0.3
-generated: "2024-03-18T20:43:40.94105794Z"
+generated: "2024-03-18T23:48:58.424763339Z"
