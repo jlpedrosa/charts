@@ -1,0 +1,773 @@
+apiVersion: v1
+entries:
+  allure:
+  - apiVersion: v2
+    appVersion: 2.21.0
+    created: "2024-03-18T20:43:41.177962408Z"
+    description: A Helm chart for Allure Report
+    digest: dba88e314aa9ac0d0f56614109d593a20c67a6a63f3b8b9cb941ed75291e0c67
+    kubeVersion: '>= 1.19.0-0'
+    name: allure
+    type: application
+    urls:
+    - https://github.com/jlpedrosa/charts/releases/download/allure-0.1.4/allure-0.1.4.tgz
+    version: 0.1.4
+  connector:
+  - apiVersion: v1
+    appVersion: latest
+    created: "2024-03-18T20:43:41.360638935Z"
+    description: Twingate Connector helm chart
+    digest: d1f6e4b0a6df9390e8237c01b18173dad231017640fe97f8151a0d19a2df54c9
+    home: https://www.twingate.com
+    icon: https://www.twingate.com/twingate.png
+    name: connector
+    urls:
+    - https://github.com/jlpedrosa/charts/releases/download/connector-0.1.25/connector-0.1.25.tgz
+    version: 0.1.25
+  dex-k8s-authenticator:
+  - annotations:
+      artifacthub.io/changes: |
+        - Add license file
+      artifacthub.io/images: |
+        - name: dex-k8s-authenticator
+          image: mintel/dex-k8s-authenticator:1.4.0
+    apiVersion: v2
+    appVersion: 1.4.0
+    created: "2024-03-18T20:43:41.54196498Z"
+    description: A helper web-app which talks to one or more Dex Identity services
+      to generate kubectl commands for creating and modifying a kubeconfig.
+    digest: d155e152ea76c1b1dbb34a9297593fd8cd6bd412d6959fab89f0d552332296b9
+    home: https://github.com/mintel/dex-k8s-authenticator
+    icon: https://dexidp.io/favicon.png
+    keywords:
+    - oidc
+    - dex
+    - kubernetes
+    - k8s
+    kubeVersion: '>=1.14.0-0'
+    maintainers:
+    - email: mark.sagikazar@gmail.com
+      name: sagikazarmark
+      url: https://sagikazarmark.hu
+    name: dex-k8s-authenticator
+    sources:
+    - https://github.com/mintel/dex-k8s-authenticator
+    - https://github.com/sagikazarmark/helm-charts/tree/master/charts/dex-k8s-authenticator
+    type: application
+    urls:
+    - https://github.com/jlpedrosa/charts/releases/download/dex-k8s-authenticator-0.0.3/dex-k8s-authenticator-0.0.3.tgz
+    version: 0.0.3
+  elastalert2:
+  - apiVersion: v1
+    appVersion: 2.2.3
+    created: "2024-03-18T20:43:41.705716229Z"
+    description: Automated rule-based alerting for Elasticsearch
+    digest: 195fd6a955e95889fab0d3bbe1298e170aa2e31b2a3e878d06aa27d22f472ecd
+    home: https://github.com/jertel/elastalert2
+    maintainers:
+    - name: jertel
+    - name: kfirfer
+    name: elastalert2
+    sources:
+    - https://github.com/jertel/elastalert2
+    urls:
+    - https://github.com/jlpedrosa/charts/releases/download/elastalert2-2.2.5/elastalert2-2.2.5.tgz
+    version: 2.2.5
+  elasticsearch:
+  - apiVersion: v1
+    appVersion: 8.6.2
+    created: "2024-03-18T20:43:41.897325456Z"
+    description: Official Elastic helm chart for Elasticsearch
+    digest: 6a398c7e0cdfcafb59806e8f2be2aaf6f396b831e4d130edca9c4422410c961f
+    home: https://github.com/elastic/helm-charts
+    icon: https://helm.elastic.co/icons/elasticsearch.png
+    maintainers:
+    - email: helm-charts@elastic.co
+      name: Elastic
+    name: elasticsearch
+    sources:
+    - https://github.com/elastic/elasticsearch
+    urls:
+    - https://github.com/jlpedrosa/charts/releases/download/elasticsearch-8.6.4/elasticsearch-8.6.4.tgz
+    version: 8.6.4
+  elasticsearch-curator:
+  - apiVersion: v2
+    appVersion: 5.8.4
+    created: "2024-03-18T20:43:42.062780924Z"
+    description: A Helm chart for Elasticsearch Curator
+    digest: b85ff2af8a2f66fcbdbf21d20800ed8635bde6cb6ddca1d951a3d2e4d7c1dbb4
+    home: https://github.com/elastic/curator
+    keywords:
+    - curator
+    - elasticsearch
+    - elasticsearch-curator
+    maintainers:
+    - email: gianrubio@gmail.com
+      name: gianrubio
+    - email: adam.hamsik@lablabs.io
+      name: haad
+    name: elasticsearch-curator
+    sources:
+    - https://github.com/kubernetes/charts/elasticsearch-curator
+    - https://github.com/pires/docker-elasticsearch-curator
+    urls:
+    - https://github.com/jlpedrosa/charts/releases/download/elasticsearch-curator-2.2.3/elasticsearch-curator-2.2.3.tgz
+    version: 2.2.3
+  extra-manifests:
+  - annotations:
+      category: ApplicationServer
+    apiVersion: v2
+    appVersion: latest
+    created: "2024-03-18T20:43:42.268591745Z"
+    description: A Helm chart for Kubernetes
+    digest: a2052f131facbccfbcc798d1301a769593302bd459d737ebffd2f307981f0369
+    home: https://github.com/kfirfer/charts
+    maintainers:
+    - email: kfirfer@gmail.com
+      name: kfirfer
+    name: extra-manifests
+    type: application
+    urls:
+    - https://github.com/jlpedrosa/charts/releases/download/extra-manifests-1.0.5/extra-manifests-1.0.5.tgz
+    version: 1.0.5
+  fluentd-elasticsearch:
+  - apiVersion: v2
+    appVersion: v4.2.3
+    created: "2024-03-18T20:43:42.465286789Z"
+    description: A Fluentd Helm chart for Kubernetes with Elasticsearch output
+    digest: 5c80d0a7b4ada3bf5801d9aacc71416b1a1ebe5d7cd03ba99993bf0d8bebc271
+    home: https://www.fluentd.org/
+    icon: https://raw.githubusercontent.com/fluent/fluentd-docs/master/public/logo/Fluentd_square.png
+    keywords:
+    - fluentd
+    - elasticsearch
+    - multiline
+    - detect-exceptions
+    - logging
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: monotek23@gmail.com
+      name: monotek
+    name: fluentd-elasticsearch
+    sources:
+    - https://github.com/kokuwaio/helm-charts/tree/main/charts/fluentd-elasticsearch
+    - https://github.com/fluent/fluentd-kubernetes-daemonset
+    - https://github.com/GoogleCloudPlatform/fluent-plugin-detect-exceptions
+    - https://github.com/kubernetes/kubernetes/tree/master/cluster/addons/fluentd-elasticsearch/fluentd-es-image
+    type: application
+    urls:
+    - https://github.com/jlpedrosa/charts/releases/download/fluentd-elasticsearch-13.9.1/fluentd-elasticsearch-13.9.1.tgz
+    version: 13.9.1
+  g-cronjob:
+  - annotations:
+      category: Application
+    apiVersion: v2
+    appVersion: latest
+    created: "2024-03-18T20:43:42.673225017Z"
+    description: A Helm chart for Kubernetes
+    digest: 496bfe195b2e8b27f796160a68e9955241aa70d7ef7a85c61bb40b22c567015a
+    home: https://github.com/kfirfer/helm/tree/master/charts/g-cronjob
+    icon: https://www.mysql.com/common/logos/logo-mysql-170x115.png
+    maintainers:
+    - email: kfirfer@gmail.com
+      name: kfir
+    name: g-cronjob
+    type: application
+    urls:
+    - https://github.com/jlpedrosa/charts/releases/download/g-cronjob-0.0.6/g-cronjob-0.0.6.tgz
+    version: 0.0.6
+  garage:
+  - apiVersion: v2
+    appVersion: v0.9.0
+    created: "2024-03-18T20:43:42.841458501Z"
+    description: S3-compatible object store for small self-hosted geo-distributed
+      deployments
+    digest: ff80b495c60ca82411a7963edb33d258fae5cf01c76d78d6dfade20803eec3da
+    name: garage
+    type: application
+    urls:
+    - https://github.com/jlpedrosa/charts/releases/download/garage-0.4.5/garage-0.4.5.tgz
+    version: 0.4.5
+  haproxy:
+  - annotations:
+      category: Database
+    apiVersion: v2
+    appVersion: 2.6.14-alpine3.17
+    created: "2024-03-18T20:43:43.017357457Z"
+    description: Fast, reliable, scalable, and easy to use proxy
+    digest: 51492c71e50b9223a232e9862cbff5dc0703fcde3d21a9cd05aece22e167bd6b
+    home: https://github.com/kfirfer/helm/tree/master/charts/haproxy
+    icon: https://res-3.cloudinary.com/crunchbase-production/image/upload/c_lpad,h_256,w_256,f_auto,q_auto:eco/yroykjzjfi8lmeam58xp
+    keywords:
+    - haproxy
+    - proxy
+    maintainers:
+    - email: kfirfer@gmail.com
+      name: kfir
+    name: haproxy
+    urls:
+    - https://github.com/jlpedrosa/charts/releases/download/haproxy-0.1.8/haproxy-0.1.8.tgz
+    version: 0.1.8
+  heartbeat:
+  - apiVersion: v2
+    appVersion: 8.6.2
+    created: "2024-03-18T20:43:43.210790703Z"
+    description: A Helm chart to periodically check the status of your services with
+      heartbeat
+    digest: 920729755b02cd011f56c57edf8942f2ec6699bf3b3ad5f38a5877d16dfe6ed5
+    home: https://www.elastic.co/products/beats/heartbeat
+    icon: https://www.elastic.co/jp/assets/blt75e7956191e1bd55/icon-heartbeat-bb.svg
+    name: heartbeat
+    sources:
+    - https://www.elastic.co/guide/en/beats/heartbeat/current/index.html
+    urls:
+    - https://github.com/jlpedrosa/charts/releases/download/heartbeat-8.6.3/heartbeat-8.6.3.tgz
+    version: 8.6.3
+  home-assistant:
+  - annotations:
+      artifacthub.io/changes: |
+        - kind: changed
+          description: bump home assistant version to 2023.8.4
+      artifacthub.io/links: |
+        - name: Home assistant source repo
+          url: https://github.com/home-assistant
+        - name: Helm Repo
+          url: https://gitlab.com/alexander-chernov/helm/home-assistant
+    apiVersion: v2
+    appVersion: 2023.10.3
+    created: "2024-03-18T20:43:43.393829171Z"
+    description: 'HomeAssistant is an open source home automation that puts local
+      control and privacy first. Powered by a worldwide community of tinkerers and
+      DIY enthusiasts. Perfect to run on a Raspberry Pi or a local server. '
+    digest: bc39b098c69f225f336326cdc3fd5b3ea23f3568af24b79c402067d1d8a29c1d
+    icon: https://design.home-assistant.io/images/logo-variants.png
+    keywords:
+    - homeassistant
+    - home-assistant
+    - smart home
+    name: home-assistant
+    type: application
+    urls:
+    - https://github.com/jlpedrosa/charts/releases/download/home-assistant-0.5.4/home-assistant-0.5.4.tgz
+    version: 0.5.4
+  jellyfin:
+  - apiVersion: v2
+    appVersion: 10.7.5
+    created: "2024-03-18T20:43:43.610051346Z"
+    description: Jellyfin
+    digest: 4287e9d82b79b183fc841528e66e3c0565be8b7914d8923e2e3d4336bc78ac78
+    home: https://github.com/kfirfer/helm/tree/master/charts/jellyfin
+    icon: https://developer.asustor.com/uploadIcons/0020_999_1568614440_Jellyfin_256.png
+    maintainers:
+    - email: kfirfer@gmail.com
+      name: kfir
+    name: jellyfin
+    urls:
+    - https://github.com/jlpedrosa/charts/releases/download/jellyfin-2.0.3/jellyfin-2.0.3.tgz
+    version: 2.0.3
+  karpenter:
+  - apiVersion: v2
+    appVersion: 0.33.2
+    created: "2024-03-18T20:43:43.796723846Z"
+    description: A Helm chart for Karpenter, an open-source node provisioning project
+      built for Kubernetes.
+    digest: d33de9d405744b423ac881381547e1ddf20a3686613126fe44edaf1cddaca158
+    home: https://karpenter.sh/
+    icon: https://repository-images.githubusercontent.com/278480393/dab059c8-caa1-4b55-aaa7-3d30e47a5616
+    keywords:
+    - cluster
+    - node
+    - scheduler
+    - autoscaling
+    - lifecycle
+    name: karpenter
+    sources:
+    - https://github.com/aws/karpenter/
+    type: application
+    urls:
+    - https://github.com/jlpedrosa/charts/releases/download/karpenter-0.33.2/karpenter-0.33.2.tgz
+    version: 0.33.2
+  keel:
+  - apiVersion: v1
+    appVersion: 0.19.1
+    created: "2024-03-18T20:43:43.966685039Z"
+    description: Open source, tool for automating Kubernetes deployment updates. Keel
+      is stateless, robust and lightweight.
+    digest: 58b8259457fd99cf79bd947b3f5d3ddd0be918fef8833127258a10780295abe8
+    home: https://keel.sh
+    icon: https://raw.githubusercontent.com/keel-hq/keel/master/static/keel-logo.png
+    keywords:
+    - kubernetes deployment
+    - helm release
+    - continuous deployment
+    maintainers:
+    - email: rmocius@gmail.com
+      name: rimusz
+    - email: karolis.rusenas@gmail.com
+      name: rusenask
+    name: keel
+    sources:
+    - https://github.com/keel-hq/keel
+    urls:
+    - https://github.com/jlpedrosa/charts/releases/download/keel-1.0.4/keel-1.0.4.tgz
+    version: 1.0.4
+  kibana-index-pattern-updater:
+  - apiVersion: v2
+    appVersion: 1.0.12
+    created: "2024-03-18T20:43:44.145785289Z"
+    description: A Helm chart for Kubernetes
+    digest: d2cb5fb1d8342bf8c67db8122b17116cca160e8cd70b790189f2ceb19ac1041b
+    name: kibana-index-pattern-updater
+    type: application
+    urls:
+    - https://github.com/jlpedrosa/charts/releases/download/kibana-index-pattern-updater-0.0.3/kibana-index-pattern-updater-0.0.3.tgz
+    version: 0.0.3
+  king:
+  - apiVersion: v2
+    appVersion: latest
+    created: "2024-03-18T20:43:44.328323877Z"
+    description: A Helm chart for King
+    digest: 01a61b05134c58d1f55f66ce01b2d9054da0d7502a13fdfd5fb9e1866327c55f
+    name: king
+    type: application
+    urls:
+    - https://github.com/jlpedrosa/charts/releases/download/king-0.1.0/king-0.1.0.tgz
+    version: 0.1.0
+  kube-hunter:
+  - apiVersion: v2
+    appVersion: 0.6.8
+    created: "2024-03-18T20:43:44.504189309Z"
+    description: A Helm chart for Kube-hunter
+    digest: de413a42fb29a66440ff14cb7dc4a43f30df77e0326b00678d6ec468568d1d71
+    home: https://github.com/aquasecurity/kube-hunter
+    icon: https://raw.githubusercontent.com/aquasecurity/kube-hunter/master/kube-hunter.png
+    keywords:
+    - kubernetes
+    - kube-hunter
+    - security
+    maintainers:
+    - email: cedric@desaintmartin.fr
+      name: desaintmartin
+    - email: liz@lizrice.com
+      name: lizrice
+    name: kube-hunter
+    sources:
+    - https://github.com/aquasecurity/kube-hunter/blob/master/job.yaml
+    urls:
+    - https://github.com/jlpedrosa/charts/releases/download/kube-hunter-1.0.5/kube-hunter-1.0.5.tgz
+    version: 1.0.5
+  kubernetes-replicator:
+  - apiVersion: v2
+    appVersion: v2.9.1
+    created: "2024-03-18T20:43:44.705603473Z"
+    description: Controller for replicating secrets+configmaps across namespaces
+    digest: 15514139bb976429696b3e594cc37a9e5cb50e6ec4f739497890a4c408f853ad
+    name: kubernetes-replicator
+    type: application
+    urls:
+    - https://github.com/jlpedrosa/charts/releases/download/kubernetes-replicator-2.9.1/kubernetes-replicator-2.9.1.tgz
+    version: 2.9.1
+  mosquitto:
+  - apiVersion: v2
+    appVersion: 1.6.15
+    created: "2024-03-18T20:43:44.867783442Z"
+    description: A Helm chart packaging Mosquitto
+    digest: 5c39b4eda8085e63a5c19f6f5be05d8b62329476168d18002298b5cd749eee9c
+    home: https://github.com/NaPs/helm-charts/tree/master/charts/mosquitto
+    icon: https://mosquitto.org/images/mosquitto-text-side-28.png
+    name: mosquitto
+    type: application
+    urls:
+    - https://github.com/jlpedrosa/charts/releases/download/mosquitto-1.0.7/mosquitto-1.0.7.tgz
+    version: 1.0.7
+  mysql-check:
+  - annotations:
+      category: Database
+    apiVersion: v2
+    appVersion: 0.0.4
+    created: "2024-03-18T20:43:45.053369318Z"
+    description: A Helm chart for Kubernetes
+    digest: 39d379b860bd54e6afde8a5878c55eb13f4798716bb9dca7d49b7bc75689695b
+    home: https://github.com/kfirfer/helm/tree/master/charts/mysql-check
+    icon: https://www.mysql.com/common/logos/logo-mysql-170x115.png
+    maintainers:
+    - email: kfirfer@gmail.com
+      name: kfir
+    name: mysql-check
+    type: application
+    urls:
+    - https://github.com/jlpedrosa/charts/releases/download/mysql-check-0.3.0/mysql-check-0.3.0.tgz
+    version: 0.3.0
+  mysql-cluster:
+  - annotations:
+      category: Database
+    apiVersion: v2
+    appVersion: 8.0.20
+    created: "2024-03-18T20:43:45.264615281Z"
+    description: A Helm chart for MySQL Cluster
+    digest: 4e1ee17b21ed2dd2cb8bcd2ba151c4ea794f56fa4d32a5370d2248ee99a27cd9
+    home: https://github.com/kfirfer/helm/tree/master/charts/mysql-cluster
+    icon: https://www.mysql.com/common/logos/logo-mysql-170x115.png
+    keywords:
+    - kubernetes
+    - mysql
+    - mysql-cluster
+    maintainers:
+    - email: kfirfer@gmail.com
+      name: kfir
+    name: mysql-cluster
+    urls:
+    - https://github.com/jlpedrosa/charts/releases/download/mysql-cluster-0.0.4/mysql-cluster-0.0.4.tgz
+    version: 0.0.4
+  mysqldump:
+  - annotations:
+      category: Database
+    apiVersion: v1
+    appVersion: 1.0.3
+    created: "2024-03-18T20:43:45.436530401Z"
+    description: A Helm chart to help backup MySQL databases using mysqldump
+    digest: 43aa2f10d36dbd00990e39069b29c3e7aa43bff24835c24b425d8139978d071c
+    home: https://www.mysql.com/
+    icon: https://www.mysql.com/common/logos/logo-mysql-170x115.png
+    keywords:
+    - mysql
+    - mysqldump
+    - backup
+    maintainers:
+    - email: username.taken@gmail.com
+      name: paulczar
+    - email: monotek23@gmail.com
+      name: monotek
+    - email: axel.koehler@kiwigrid.com
+      name: axdotl
+    - email: kfirfer@gmail.com
+      name: kfirfer
+    name: mysqldump
+    sources:
+    - https://github.com/kubernetes/charts
+    - https://dev.mysql.com/doc/refman/5.7/en/mysqldump.html
+    urls:
+    - https://github.com/jlpedrosa/charts/releases/download/mysqldump-2.8.0/mysqldump-2.8.0.tgz
+    version: 2.8.0
+  oauth2-proxy:
+  - apiVersion: v2
+    appVersion: v6.1.1
+    created: "2024-03-18T20:43:45.633808134Z"
+    description: A reverse proxy that provides authentication with Google, Github
+      or other providers
+    digest: 44321fb4011786f5a9aa8c25ff4d9e2d50b50520310f8741735126459cbb8d68
+    home: https://pusher.github.io/oauth2_proxy/
+    keywords:
+    - kubernetes
+    - oauth
+    - oauth2
+    - authentication
+    - google
+    - github
+    kubeVersion: '>=1.9.0-0'
+    name: oauth2-proxy
+    sources:
+    - https://github.com/pusher/oauth2_proxy
+    urls:
+    - https://github.com/jlpedrosa/charts/releases/download/oauth2-proxy-3.3.3/oauth2-proxy-3.3.3.tgz
+    version: 3.3.3
+  onlyoffice:
+  - apiVersion: v2
+    appVersion: 7.4.0.1
+    created: "2024-03-18T20:43:45.814839218Z"
+    description: A Helm chart for onlyoffice
+    digest: b1950f1a39d07df2febfbc36291c98ce6f387f18ca9375aff7b2b7f065387a13
+    home: https://www.onlyoffice.com/
+    icon: https://avatars0.githubusercontent.com/u/22418908?s=200&v=4
+    maintainers:
+    - email: kfirfer@gmail.com
+      name: Kfirfer
+    name: onlyoffice
+    sources:
+    - https://hub.docker.com/r/onlyoffice/documentserver
+    urls:
+    - https://github.com/jlpedrosa/charts/releases/download/onlyoffice-1.2.9/onlyoffice-1.2.9.tgz
+    version: 1.2.9
+  percona-toolkit:
+  - annotations:
+      category: Database
+    apiVersion: v2
+    appVersion: 3.2.1
+    created: "2024-03-18T20:43:45.988150159Z"
+    description: A Helm chart for Kubernetes
+    digest: ad9a14b6b5549916dd51ffbe4f65f81b044ce1a762670b9fc9ff9f2de180c730
+    home: https://github.com/kfirfer/helm/tree/master/charts/percona-toolkit
+    icon: https://www.percona.com/sites/all/themes/percona2015/logo.png
+    maintainers:
+    - email: kfirfer@gmail.com
+      name: kfir
+    name: percona-toolkit
+    type: application
+    urls:
+    - https://github.com/jlpedrosa/charts/releases/download/percona-toolkit-0.0.6/percona-toolkit-0.0.6.tgz
+    version: 0.0.6
+  percona-xtradb-cluster:
+  - annotations:
+      category: Database
+    apiVersion: v2
+    appVersion: 8.0.32-24.2
+    created: "2024-03-18T20:43:46.173361641Z"
+    description: free, fully compatible, enhanced, open source drop-in replacement
+      for MySQL with Galera Replication (xtradb)
+    digest: 4e01675296788fefd0217e62e6975bc877c5f819acdb959884703bb36a95d113
+    home: https://github.com/kfirfer/helm/tree/master/charts/percona-xtradb-cluster
+    icon: https://www.percona.com/sites/all/themes/percona2015/logo.png
+    keywords:
+    - mysql
+    - percona
+    - database
+    - sql
+    - xtradb
+    - galera
+    - wsrep
+    maintainers:
+    - email: kfirfer@gmail.com
+      name: kfirfer
+    name: percona-xtradb-cluster
+    sources:
+    - https://www.percona.com/
+    - https://github.com/percona-lab/percona-docker/
+    urls:
+    - https://github.com/jlpedrosa/charts/releases/download/percona-xtradb-cluster-1.5.10/percona-xtradb-cluster-1.5.10.tgz
+    version: 1.5.10
+  permission-manager:
+  - apiVersion: v1
+    appVersion: v1.7.1-rc1
+    created: "2024-03-18T20:43:46.339972734Z"
+    description: A Helm chart for Kube-hunter
+    digest: 92bd6c65519a976b3643c705611938966aebfee1ac1625e2b5323eea462077cb
+    icon: https://3.bp.blogspot.com/-9_-b0nEDB94/XDeXlBAancI/AAAAAAAAEo0/T7V1-SK_MWcXgNDxbrk1uJTaPTDZPATyACLcBGAs/s1600/helm.png
+    keywords:
+    - kubernetes
+    - security
+    name: permission-manager
+    urls:
+    - https://github.com/jlpedrosa/charts/releases/download/permission-manager-1.0.7/permission-manager-1.0.7.tgz
+    version: 1.0.7
+  phpmemcachedadmin:
+  - apiVersion: v2
+    appVersion: latest
+    created: "2024-03-18T20:43:46.488856967Z"
+    description: A Helm chart for Kubernetes
+    digest: caed3de4e31408d361501a69f0999da5b4fbbe4f66c5618d711a5ee9ba47aa78
+    name: phpmemcachedadmin
+    type: application
+    urls:
+    - https://github.com/jlpedrosa/charts/releases/download/phpmemcachedadmin-0.1.4/phpmemcachedadmin-0.1.4.tgz
+    version: 0.1.4
+  phppgadmin:
+  - annotations:
+      category: Database
+    apiVersion: v2
+    appVersion: latest
+    created: "2024-03-18T20:43:46.648611401Z"
+    description: A Helm chart for phppgadmin
+    digest: 7a06bc45b58df9bd738b092020ca43c6483f5b210a22580792a1a6a6ed795803
+    name: phppgadmin
+    type: application
+    urls:
+    - https://github.com/jlpedrosa/charts/releases/download/phppgadmin-0.1.12/phppgadmin-0.1.12.tgz
+    version: 0.1.12
+  pmm-server:
+  - annotations:
+      category: Database
+    apiVersion: v2
+    appVersion: 2.38.1
+    created: "2024-03-18T20:43:46.828745244Z"
+    description: A Helm chart for Kubernetes
+    digest: abbae9d7c7126ea4559cbbcf9bcb74fcb5cc96df025eda66d1c379127502b226
+    home: https://github.com/kfirfer/helm/tree/master/charts/pmm-server
+    icon: https://www.percona.com/sites/all/themes/percona2015/logo.png
+    maintainers:
+    - email: kfirfer@gmail.com
+      name: kfir
+    name: pmm-server
+    type: application
+    urls:
+    - https://github.com/jlpedrosa/charts/releases/download/pmm-server-0.2.8/pmm-server-0.2.8.tgz
+    version: 0.2.8
+  pod-cleanup:
+  - annotations:
+      category: ApplicationServer
+    apiVersion: v2
+    appVersion: latest
+    created: "2024-03-18T20:43:46.99066207Z"
+    description: A Helm chart for Kubernetes
+    digest: 236604f281976dc644037e079c0ff01a33ec0c68fc101413bb888bd33ad46c3b
+    home: https://artifacthub.io/packages/helm/kfirfer/pod-cleanup
+    icon: https://1.bp.blogspot.com/-SS2TiFZPpIQ/UUdSeFkTAPI/AAAAAAAAAlE/Q9oqGZCLm7U/s1600/Java7.png
+    maintainers:
+    - email: kfirfer@gmail.com
+      name: kfirfer
+    name: pod-cleanup
+    type: application
+    urls:
+    - https://github.com/jlpedrosa/charts/releases/download/pod-cleanup-0.0.4/pod-cleanup-0.0.4.tgz
+    version: 0.0.4
+  quickwit:
+  - apiVersion: v2
+    appVersion: v0.7.1
+    created: "2024-03-18T20:43:47.19929061Z"
+    description: Sub-second search & analytics engine on cloud storage.
+    digest: 8b9ba9e1094fafc85bb956d589c89205e27bd0b7249f1061eb21aad54212b98d
+    home: https://quickwit.io/
+    icon: https://avatars.githubusercontent.com/u/98504233?s=200&v=4
+    keywords:
+    - quickwit
+    - search
+    - analytics
+    - tracing
+    - logs
+    maintainers:
+    - email: hello@quickwit.io
+      name: Quickwit
+    - email: mkhpalm@gmail.com
+      name: mkhpalm
+    name: quickwit
+    sources:
+    - https://github.com/quickwit-oss/quickwit/
+    type: application
+    urls:
+    - https://github.com/jlpedrosa/charts/releases/download/quickwit-0.5.6/quickwit-0.5.6.tgz
+    version: 0.5.6
+  rabbitmq:
+  - apiVersion: v2
+    appVersion: 3.12.10
+    created: "2024-03-18T20:43:47.395635082Z"
+    description: A Helm chart for a RabbitMQ cluster on Kubernetes
+    digest: f8a97a3692c56c4fe36be9e7f2258fe6b8711ff533931c78fd2cadbdc6d6a111
+    maintainers:
+    - name: groundhog2k
+    name: rabbitmq
+    type: application
+    urls:
+    - https://github.com/jlpedrosa/charts/releases/download/rabbitmq-0.7.21/rabbitmq-0.7.21.tgz
+    version: 0.7.21
+  redis-commander:
+  - annotations:
+      category: Database
+    apiVersion: v2
+    appVersion: latest
+    created: "2024-03-18T20:43:47.577472685Z"
+    description: A Helm chart for redis-commander
+    digest: 19b17d1a93c669b9c7245b923a1df94e517659143815d3e6bb7281bd8827930c
+    name: redis-commander
+    type: application
+    urls:
+    - https://github.com/jlpedrosa/charts/releases/download/redis-commander-0.1.15/redis-commander-0.1.15.tgz
+    version: 0.1.15
+  scripts:
+  - annotations:
+      category: ApplicationServer
+    apiVersion: v2
+    appVersion: 0.0.24
+    created: "2024-03-18T20:43:47.745006835Z"
+    description: A Helm chart for Kubernetes
+    digest: 0fb318877882ee1226db465a2888af843eed6edc1a72490e0fadaf56c8e20818
+    home: https://github.com/kfirfer/helm/charts/scripts
+    icon: https://1.bp.blogspot.com/-SS2TiFZPpIQ/UUdSeFkTAPI/AAAAAAAAAlE/Q9oqGZCLm7U/s1600/Java7.png
+    maintainers:
+    - email: kfirfer@gmail.com
+      name: kfir.fersht
+    name: scripts
+    type: application
+    urls:
+    - https://github.com/jlpedrosa/charts/releases/download/scripts-0.1.36/scripts-0.1.36.tgz
+    version: 0.1.36
+  skooner:
+  - apiVersion: v1
+    appVersion: 0.0.1
+    created: "2024-03-18T20:43:47.9227262Z"
+    description: A Helm chart for Kubernetes skooner
+    digest: bb6f19291d2e017ad7a461c943e8f13bbeb889545333192174f97b149158886a
+    icon: https://3.bp.blogspot.com/-9_-b0nEDB94/XDeXlBAancI/AAAAAAAAEo0/T7V1-SK_MWcXgNDxbrk1uJTaPTDZPATyACLcBGAs/s1600/helm.png
+    maintainers:
+    - email: kiryanov.i@gmail.com
+      name: Ivan Kirianov
+    - email: eric@herbrandson.com
+      name: Eric Herbrandson
+    name: skooner
+    urls:
+    - https://github.com/jlpedrosa/charts/releases/download/skooner-0.0.6/skooner-0.0.6.tgz
+    version: 0.0.6
+  slackgpt:
+  - annotations:
+      category: ApplicationServer
+    apiVersion: v2
+    appVersion: latest
+    created: "2024-03-18T20:43:48.110886609Z"
+    description: A Helm chart for Kubernetes
+    digest: ec19bde3b310138b089cdf5c1eff3abde24cb364f0b1468d8fdbe7fb2d3eae35
+    icon: https://1.bp.blogspot.com/-SS2TiFZPpIQ/UUdSeFkTAPI/AAAAAAAAAlE/Q9oqGZCLm7U/s1600/Java7.png
+    maintainers:
+    - email: kfirfer@gmail.com
+      name: kfir.fersht
+    name: slackgpt
+    type: application
+    urls:
+    - https://github.com/jlpedrosa/charts/releases/download/slackgpt-0.0.6/slackgpt-0.0.6.tgz
+    version: 0.0.6
+  syslog-ng:
+  - annotations:
+      truecharts.org/SCALE-support: "true"
+      truecharts.org/catagories: |
+        - incubator
+      truecharts.org/grade: U
+    apiVersion: v2
+    appVersion: 4.0.1
+    created: "2024-03-18T20:43:48.280495234Z"
+    description: syslog-ng allows you to flexibly collect, parse, classify, rewrite
+      and correlate logs.
+    digest: 4ff235d77fb9e04ddc418a8d597786d29a39f3b4e3e0a1d26d1dc0d1efd043e2
+    home: https://truecharts.org/charts/stable/syslog-ng
+    icon: https://truecharts.org/img/hotlink-ok/chart-icons/syslog-ng.png
+    keywords:
+    - syslog-ng
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: info@truecharts.org
+      name: TrueCharts
+      url: https://truecharts.org
+    name: syslog-ng
+    sources:
+    - https://github.com/truecharts/charts/tree/master/charts/stable/syslog-ng
+    - https://hub.docker.com/r/balabit/syslog-ng
+    type: application
+    urls:
+    - https://github.com/jlpedrosa/charts/releases/download/syslog-ng-4.0.12/syslog-ng-4.0.12.tgz
+    version: 4.0.12
+  teamspeak:
+  - apiVersion: v2
+    appVersion: 3.13.7
+    created: "2024-03-18T20:43:48.449802467Z"
+    description: TeamSpeak is software for quality voice communication via the Internet.
+    digest: e7cc73479292ab069e5228a654e1c296a659f47dfd6d87716a3954ae611112cc
+    name: teamspeak
+    type: application
+    urls:
+    - https://github.com/jlpedrosa/charts/releases/download/teamspeak-1.2.3/teamspeak-1.2.3.tgz
+    version: 1.2.3
+  ts3-manager:
+  - annotations:
+      category: ApplicationServer
+    apiVersion: v2
+    appVersion: v2.2.0
+    created: "2024-03-18T20:43:48.632554501Z"
+    description: A Helm chart for Kubernetes
+    digest: d742f9bf108e75ed703a3ab60abb710eed675c769369de369e6ea248109e822a
+    home: https://github.com/kfirfer/ts3-manager
+    icon: https://1.bp.blogspot.com/-SS2TiFZPpIQ/UUdSeFkTAPI/AAAAAAAAAlE/Q9oqGZCLm7U/s1600/Java7.png
+    maintainers:
+    - email: kfirfer@gmail.com
+      name: kfirfer
+    name: ts3-manager
+    type: application
+    urls:
+    - https://github.com/jlpedrosa/charts/releases/download/ts3-manager-0.0.3/ts3-manager-0.0.3.tgz
+    version: 0.0.3
+generated: "2024-03-18T20:43:40.94105794Z"
