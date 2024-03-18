@@ -3,7 +3,7 @@
 # Docker image to use for deployment
 image:
   repository: "severalnines/proxysql"
-  tag: "2.0.15"
+  tag: "2.3.2"
 
 # Default number of ProxySQL replicas
 numReplicas: 2
