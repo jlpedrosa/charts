@@ -8,7 +8,7 @@ image:
   repository: perconalab/percona-toolkit
   pullPolicy: IfNotPresent
   # Overrides the image tag whose default is the chart appVersion.
-  tag: "3.2.1"
+  tag: "3.5.7"
 
 imagePullSecrets: []
 nameOverride: ""
