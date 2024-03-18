@@ -26,7 +26,7 @@ api:
   devMode: false
   image:
     repository: frankescobar/allure-docker-service
-    tag: "2.21.0"
+    tag: "2.27.0"
     digest: ""
     pullPolicy: IfNotPresent
   podAnnotations: {}
