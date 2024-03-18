@@ -125,7 +125,7 @@ pmm:
   enabled: false
   image:
     repository: perconalab/pmm-client
-    tag: 2.38.1
+    tag: 2.41.1
   user: admin
   password: admin
   server:
