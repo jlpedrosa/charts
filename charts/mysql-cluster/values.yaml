@@ -2,7 +2,7 @@ mysqlRootPassword: "123123"
 
 image:
   repository: mysql/mysql-cluster
-  tag: 8.0.20
+  tag: 8.0.32
   pullPolicy: IfNotPresent
 
 # By default this will make sure two pods don't end up on the same node
