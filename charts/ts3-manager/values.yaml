@@ -7,7 +7,7 @@ replicaCount: 1
 image:
   repository: joni1802/ts3-manager
   pullPolicy: IfNotPresent
-  tag: v2.2.0
+  tag: v2.2.1
 
 imagePullSecret:
   enabled: false
