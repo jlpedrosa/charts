@@ -14,7 +14,7 @@ wireguardImage:
   # -- Specify the WireGuard image
   repository: tccr.io/truecharts/wireguard
   # -- Specify the WireGuard image tag
-  tag: 8.7.1@sha256:dcc55a826f389e714cb2c7ed1a1a491f834d31eb7d520b0ab391883e19c95392
+  tag: 8.8.14@sha256:2c9f470d84f82cad8c6d8e9f5273c36e577fb4e03cd43fe76f802414ce5edcea
   # -- Specify the WireGuard image pull policy
   pullPolicy: IfNotPresent
 
