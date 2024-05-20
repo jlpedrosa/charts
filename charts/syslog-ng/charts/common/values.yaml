@@ -25,7 +25,7 @@ tailscaleImage:
   repository: tailscale/tailscale
   # -- Specify the Tailscale image tag
   # TODO: Switch to stable once a v1.33.x is released
-  tag: v1.64.2@sha256:1d7e6142abaf4482cd05a6fe901aa4a8d3edcb7e8b6cb952cc6e9d05980764a8
+  tag: v1.66.3@sha256:3533d252cb3ffb2bb06eec9bfbfc62592d08d67ab2925c51a0bb541eb6f233eb
   # -- Specify the Tailscale image pull policy
   pullPolicy: IfNotPresent
 
