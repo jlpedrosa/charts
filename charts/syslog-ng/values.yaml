@@ -1,7 +1,7 @@
 image:
   repository: tccr.io/truecharts/syslog-ng
   pullPolicy: IfNotPresent
-  tag: 10.0.4@sha256:ab0690ee84131d94b0cf9344b2b54416b244da1e1d989ff1e7c4a6de05ffc90c
+  tag: 10.0.6@sha256:16b4c38395c13237220ae0751d5c7597447896590f1da8d0fa6d91d7b4b15529
 
 securityContext:
   runAsNonRoot: false
