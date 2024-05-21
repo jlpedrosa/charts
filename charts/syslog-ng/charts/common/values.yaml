@@ -35,7 +35,7 @@ codeserverImage:
   # -- Specify the code-server image
   repository: tccr.io/truecharts/code-server
   # -- Specify the code-server image tag
-  tag: 12.0.5@sha256:3fede0f8bb92b6f059efd09f0347cc5bfd60061956754609f64b6c12ed2b12ec
+  tag: 12.1.3@sha256:6f257a246afe7c37c480da224422d3f21e8ed525f5774382b8ec220e1fafac2c
   # -- Specify the code-server image pull policy
   pullPolicy: IfNotPresent
 
